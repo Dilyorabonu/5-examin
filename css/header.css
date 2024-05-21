@@ -49,3 +49,54 @@
 
 .header__cart__icon {
 }
+
+.Home__card1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 128px 165px 158px 165px;
+}
+
+.Home__card1__left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.Home__card1__left-title {
+  text-transform: uppercase;
+  color: var(--primary--white-color);
+  opacity: 50%;
+  font-family: "Manrope";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.12px;
+  letter-spacing: 10px;
+}
+.Home__card1__left-name {
+  color: var(--primary--white-color);
+  width: 396px;
+  height: 116px;
+  font-family: "Manrope";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+}
+.Home__card1__left-desc {
+  width: 349px;
+  height: 75px;
+  opacity: 0.75px;
+  color: var(--primary--white-color);
+  font-family: "Manrope";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.Home__card1__left-button {
+  display: flex;
+  align-self: flex-start;
+  background-color: var(--primary-color);
+}
+.Home__card1__right {
+}

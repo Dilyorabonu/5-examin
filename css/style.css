@@ -3,6 +3,7 @@
 @import "./variables.css";
 @import "./header.css";
 @import "./cart.css";
+@import "./main.css";
 
 *,
 *::after,

@@ -1,0 +1,11 @@
+.main {
+    padding-top: 120px;
+}
+
+
+.Home__card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
