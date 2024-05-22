@@ -1,140 +1,174 @@
 .main {
-  padding-top: 120px;
 }
 
-.block1 {
+.catalogSection {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 30px;
+  margin-top: 120px;
 }
 
-.Home__card2-info {
-  width: 350px;
-  height: 204px;
+.catalogSection__catalog {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  gap: 15px;
+  align-items: center;
+  width: 350px;
+  background-color: var(--primary--white-color);
+  border-radius: 8px;
 }
 
-.Home__card2-info-title {
-  font-family: "Manrope";
+.productImage1 {
+  margin-top: -80px;
+  height: 180px;
+}
+.productImage2 {
+  margin-top: -73px;
+  height: 180px;
+}
+.productImage3 {
+  margin-top: -60px;
+  height: 180px;
+}
+
+.shopBtn {
+  margin-bottom: 30px;
+}
+
+.catalogSection__catalog p {
   font-size: 18px;
   font-weight: 700;
   line-height: 24.59px;
   letter-spacing: 1.2857142686843872px;
   text-align: center;
-  text-transform: uppercase;
-}
-
-.Home__card2-info-shop {
   color: var(--primary-black-color);
-  width: 39px;
-  height: 18px;
-  opacity: 50%;
-  font-family: "Manrope";
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 17.76px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  margin-bottom: 16px;
+  margin-top: -20px;
 }
 
-.block2 {
-  margin-top: 168px;
-  color: var(--primary--white-color);
+.productAddSection {
   display: flex;
-  align-items: center;
-  gap: 138px;
-  /* justify-content: space-between; */
-  background-color: var(--primary-color);
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 168px;
 }
-
-.zx9__left {
+.zx9SpeakerAdd {
+  display: flex;
+  gap: 138px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.circlePattern {
+  position: absolute;
+  width: 944px;
+  height: 944px;
+  top: 1265px;
+  left: 16px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0.2px;
+  z-index: 1;
+}
+.zx9SpeakerAddImg {
   width: 410.23px;
   height: 493px;
-  margin-top: 96px;
+  padding-top: 96px;
+  margin-bottom: -16px;
+  margin-left: 127px;
+  z-index: 2;
 }
-
-.zx9__right {
+.zx9SpeakerAdd__Text {
   width: 349px;
-  height: 303px;
+  margin-top: 133px;
 }
-
-.zx9__right-title {
-  width: 261px;
-  height: 116px;
-  font-family: "Manrope";
+.zx9SpeakerAdd__Text h2 {
   font-size: 56px;
   font-weight: 700;
   line-height: 58px;
   letter-spacing: 2px;
+  text-align: left;
+  color: var(--primary--white-color);
+  margin-bottom: 24px;
 }
-
-.zx9__right-desc {
-  margin-top: 24px;
-  width: 349px;
-  height: 75px;
-  font-family: "Manrope";
+.zx9SpeakerAdd__Text p {
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
   text-align: left;
-}
-
-.zx9__right-button {
-  margin-top: 40px;
-  cursor: pointer;
-  background-color: var(--primary-black-color);
   color: var(--primary--white-color);
-  font-family: "Manrope";
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 17.76px;
-  letter-spacing: 1px;
-  text-align: left;
+  margin-bottom: 40px;
 }
-
-.zx7 {
-  margin-top: 46px;
+.zx7SpeakerAdd {
   height: 320px;
+  z-index: 2;
+  border-radius: 8px;
+  background-image: url(../images/home/desktop/image-speaker-zx7.jpg);
 }
-
-.zx7-info {
-  width: 204px;
-  height: 118px;
-  padding: 0px 2px 0px 0px;
+.zx7text {
+  margin: 101px 0px 0px 95px;
 }
-
-.block3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 48px;
-}
-
-.yx1-info {
-  background-color: var(--light-gray-color);
-  width: 540px;
-  height: 320px;
-}
-
-.yx1-info-title {
-  font-family: "Manrope";
+.zx7text h2 {
   font-size: 28px;
   font-weight: 700;
   line-height: 38.25px;
   letter-spacing: 2px;
+  text-align: left;
+  color: var(--primary-black-color);
+  margin-bottom: 32px;
+}
+.yx1EarphonesAdd {
+  display: flex;
+  gap: 30px;
+}
+.yx1EarphonesAdd img {
+  border-radius: 8px;
+}
+.zx1text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38.25px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: var(--primary-black-color);
+  margin-bottom: 32px;
+}
+.zx1text {
+  border-radius: 8px;
+  padding: 100px 196px 101px 95px;
+  background-color: var(--secondary--white-color);
 }
 
-.yx1-info-button {
-  background-color: var(--light-gray-color);
-  border: 1px solid black;
+.aboutUsSection {
+  display: flex;
+  margin-top: 200px;
 }
-
-.block4{
-    display: flex;
-    
+.aboutUsSection__text {
+  width: 445px;
+  margin-top: 147px;
+  margin-right: 125px;
+}
+.aboutUsSection__text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: var(--primary-black-color);
+}
+.aboutUsSection__text h2 {
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.4285714626312256px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.aboutUsSection__text span {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.4285714626312256px;
+  text-align: left;
+  color: var(--primary-color);
+}
+.aboutUsSection img {
+  border-radius: 8px;
 }
