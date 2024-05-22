@@ -97,6 +97,12 @@
   display: flex;
   align-self: flex-start;
   background-color: var(--primary-color);
+  font-family: "Manrope";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17.76px;
+  letter-spacing: 1px;
+  text-align: left;
 }
 .Home__card1__right {
 }

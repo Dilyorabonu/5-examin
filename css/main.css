@@ -1,11 +1,140 @@
 .main {
-    padding-top: 120px;
+  padding-top: 120px;
 }
 
+.block1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
 
-.Home__card2{
+.Home__card2-info {
+  width: 350px;
+  height: 204px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Home__card2-info-title {
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.59px;
+  letter-spacing: 1.2857142686843872px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Home__card2-info-shop {
+  color: var(--primary-black-color);
+  width: 39px;
+  height: 18px;
+  opacity: 50%;
+  font-family: "Manrope";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17.76px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.block2 {
+  margin-top: 168px;
+  color: var(--primary--white-color);
+  display: flex;
+  align-items: center;
+  gap: 138px;
+  /* justify-content: space-between; */
+  background-color: var(--primary-color);
+}
+
+.zx9__left {
+  width: 410.23px;
+  height: 493px;
+  margin-top: 96px;
+}
+
+.zx9__right {
+  width: 349px;
+  height: 303px;
+}
+
+.zx9__right-title {
+  width: 261px;
+  height: 116px;
+  font-family: "Manrope";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+}
+
+.zx9__right-desc {
+  margin-top: 24px;
+  width: 349px;
+  height: 75px;
+  font-family: "Manrope";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+.zx9__right-button {
+  margin-top: 40px;
+  cursor: pointer;
+  background-color: var(--primary-black-color);
+  color: var(--primary--white-color);
+  font-family: "Manrope";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17.76px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.zx7 {
+  margin-top: 46px;
+  height: 320px;
+}
+
+.zx7-info {
+  width: 204px;
+  height: 118px;
+  padding: 0px 2px 0px 0px;
+}
+
+.block3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 48px;
+}
+
+.yx1-info {
+  background-color: var(--light-gray-color);
+  width: 540px;
+  height: 320px;
+}
+
+.yx1-info-title {
+  font-family: "Manrope";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38.25px;
+  letter-spacing: 2px;
+}
+
+.yx1-info-button {
+  background-color: var(--light-gray-color);
+  border: 1px solid black;
+}
+
+.block4{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+    
 }
